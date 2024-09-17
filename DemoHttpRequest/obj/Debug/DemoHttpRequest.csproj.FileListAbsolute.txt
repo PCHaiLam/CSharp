@@ -1,0 +1,11 @@
+C:\Users\Admin\Documents\GitHub\CSharp\DemoHttpRequest\obj\Debug\DemoHttpRequest.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\CSharp\DemoHttpRequest\obj\Debug\DemoHttpRequest.Properties.Resources.resources
+C:\Users\Admin\Documents\GitHub\CSharp\DemoHttpRequest\obj\Debug\DemoHttpRequest.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\GitHub\CSharp\DemoHttpRequest\obj\Debug\DemoHttpRequest.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\CSharp\DemoHttpRequest\bin\Debug\DemoHttpRequest.exe.config
+C:\Users\Admin\Documents\GitHub\CSharp\DemoHttpRequest\bin\Debug\DemoHttpRequest.exe
+C:\Users\Admin\Documents\GitHub\CSharp\DemoHttpRequest\bin\Debug\DemoHttpRequest.pdb
+C:\Users\Admin\Documents\GitHub\CSharp\DemoHttpRequest\obj\Debug\DemoHttp.71B77D51.Up2Date
+C:\Users\Admin\Documents\GitHub\CSharp\DemoHttpRequest\obj\Debug\DemoHttpRequest.exe
+C:\Users\Admin\Documents\GitHub\CSharp\DemoHttpRequest\obj\Debug\DemoHttpRequest.pdb
+C:\Users\Admin\Documents\GitHub\CSharp\DemoHttpRequest\obj\Debug\DemoHttpRequest.Form1.resources
