@@ -1,0 +1,17 @@
+C:\Users\Admin\Documents\GitHub\CSharp\MaHoa\bin\Debug\net8.0-windows\MaHoa.exe
+C:\Users\Admin\Documents\GitHub\CSharp\MaHoa\bin\Debug\net8.0-windows\MaHoa.deps.json
+C:\Users\Admin\Documents\GitHub\CSharp\MaHoa\bin\Debug\net8.0-windows\MaHoa.runtimeconfig.json
+C:\Users\Admin\Documents\GitHub\CSharp\MaHoa\bin\Debug\net8.0-windows\MaHoa.dll
+C:\Users\Admin\Documents\GitHub\CSharp\MaHoa\bin\Debug\net8.0-windows\MaHoa.pdb
+C:\Users\Admin\Documents\GitHub\CSharp\MaHoa\obj\Debug\net8.0-windows\MaHoa.Form1.resources
+C:\Users\Admin\Documents\GitHub\CSharp\MaHoa\obj\Debug\net8.0-windows\MaHoa.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\GitHub\CSharp\MaHoa\obj\Debug\net8.0-windows\MaHoa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\GitHub\CSharp\MaHoa\obj\Debug\net8.0-windows\MaHoa.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\CSharp\MaHoa\obj\Debug\net8.0-windows\MaHoa.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\CSharp\MaHoa\obj\Debug\net8.0-windows\MaHoa.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\CSharp\MaHoa\obj\Debug\net8.0-windows\MaHoa.sourcelink.json
+C:\Users\Admin\Documents\GitHub\CSharp\MaHoa\obj\Debug\net8.0-windows\MaHoa.dll
+C:\Users\Admin\Documents\GitHub\CSharp\MaHoa\obj\Debug\net8.0-windows\refint\MaHoa.dll
+C:\Users\Admin\Documents\GitHub\CSharp\MaHoa\obj\Debug\net8.0-windows\MaHoa.pdb
+C:\Users\Admin\Documents\GitHub\CSharp\MaHoa\obj\Debug\net8.0-windows\MaHoa.genruntimeconfig.cache
+C:\Users\Admin\Documents\GitHub\CSharp\MaHoa\obj\Debug\net8.0-windows\ref\MaHoa.dll

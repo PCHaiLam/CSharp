@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+
+        <div>
+            @Html.ActionLink("Request", "../PhepToan_63134417/UseRequest", new { @class = "a" }) &nbsp;|&nbsp;
+            @Html.ActionLink("Arguments", "../PhepToan_63134417/UseArguments", new { @class = "a" })&nbsp;|&nbsp;
+            @Html.ActionLink("FormCollection", "../PhepToan_63134417/UseFormCollection", new { @class = "a" }) &nbsp;|&nbsp;
+            @Html.ActionLink("Model", "../PhepToan_63134417/Index", new { @class = "a" })
+            <hr style="display: block;border-top: 1px solid aqua;  margin: 8px 0;" />
+        </div>
+        @RenderBody()
+
+            @Scripts.Render("~/bundles/jquery")
+            @Scripts.Render("~/bundles/bootstrap")
+            @RenderSection("scripts", required: false)
+</body>
+</html>
