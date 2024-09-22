@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "FormCollection";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm("Register_FormCollection", "SinhVien_63134417", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal m-5 p-3 w-5/12 border border-black align-items-center">
+        <h4 class="font-bold text-xl uppercase text-center">Thông tin sinh viên</h4>
+        <hr />
+
+        <div class="flex justify-around items-center w-full my-2">
+            <label class="font-bold w-60 text-right">Mã sinh viên: </label>
+            <input class="w-60 px-1 py-1 bg-gray-200 border border-black rounded select-text" name="id" />
+        </div>
+        <div class="flex justify-around items-center w-full my-2">
+            <label class="font-bold w-60 text-right">Họ tên: </label>
+            <input class="w-60 px-1 py-1 bg-gray-200 border border-black rounded select-text" name="name" />
+        </div>
+        <div class="flex justify-around items-center w-full my-2">
+            <label class="font-bold w-60 text-right">Điểm: </label>
+            <input class="w-60 px-1 py-1 bg-gray-200 border border-black rounded select-text" name="mark" />
+        </div>
+        <div class="flex justify-around items-center w-full my-2">
+            <button type="submit" class="px-2 py-1 border border-black bg-gray-200">Đăng kí</button>
+        </div>
+    </div>
+}
+
+

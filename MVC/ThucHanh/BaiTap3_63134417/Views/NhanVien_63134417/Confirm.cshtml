@@ -1,0 +1,45 @@
+﻿@model BaiTap3_63134417.Models.model
+
+@{
+    ViewBag.Title = "Confirm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+<h4 class="font-bold text-xl uppercase text-center underline">Thông tin thành viên đã đăng kí</h4>
+
+<div class="flex justify-between items-center w-max">
+    <div class="">
+        <img src="@ViewBag.Avatar" alt="Avatar" class="w-28 h-28 object-cover rounded-full" />
+    </div>
+    <div class="">
+        <table class="table-auto text-left w-full">
+            <tr>
+                <td><strong>Mã nhân viên:</strong></td>
+                <td>@ViewBag.EmpID</td>
+            </tr>
+            <tr>
+                <td><strong>Tên nhân viên:</strong></td>
+                <td>@ViewBag.Name</td>
+            </tr>
+            <tr>
+                <td><strong>Ngày sinh:</strong></td>
+                <td>@ViewBag.BirthOfDate</td>
+            </tr>
+            <tr>
+                <td><strong>Email:</strong></td>
+                <td>@ViewBag.Email</td>
+            </tr>
+            <tr>
+                <td><strong>Mật khẩu:</strong></td>
+                <td>@ViewBag.Password</td>
+            </tr>
+            <tr>
+                <td><strong>Phòng ban:</strong></td>
+                <td>@ViewBag.Department</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+

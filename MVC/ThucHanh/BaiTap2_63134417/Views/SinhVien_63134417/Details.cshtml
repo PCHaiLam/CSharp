@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "Student Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="form-horizontal m-5 p-3 w-5/12 border border-black align-items-center">
+    <h4 class="font-bold text-xl uppercase text-center">Chi tiết sinh viên</h4>
+    <hr />
+
+    <div class="flex justify-around items-center w-full my-2">
+        <label class="font-bold w-60 text-right">Mã sinh viên: </label>
+        <span class="w-60">@ViewBag.Id</span>
+    </div>
+    <div class="flex justify-around items-center w-full my-2">
+        <label class="font-bold w-60 text-right">Họ tên: </label>
+        <span class="w-60">@ViewBag.Name</span>
+    </div>
+    <div class="flex justify-around items-center w-full my-2">
+        <label class="font-bold w-60 text-right">Điểm: </label>
+        <span class="w-60">@ViewBag.Mark</span>
+    </div>
+    <div>
+        @Html.ActionLink("Quay lại", "Register")
+    </div>
+</div>
