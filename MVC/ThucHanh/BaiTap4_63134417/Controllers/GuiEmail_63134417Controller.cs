@@ -29,5 +29,9 @@ namespace BaiTap4_63134417.Controllers
             smtp.Send(mail);
             return RedirectToAction("Index", "Mail");
         }
+        public ActionResult Mail()
+        {
+            return View();
         }
     }
+}

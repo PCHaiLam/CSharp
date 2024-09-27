@@ -1,0 +1,15 @@
+C:\Users\Admin\Documents\GitHub\CSharp\BT_MaHoa\MaHoaCeasar\bin\Debug\net8.0\MaHoaCeasar.exe
+C:\Users\Admin\Documents\GitHub\CSharp\BT_MaHoa\MaHoaCeasar\bin\Debug\net8.0\MaHoaCeasar.deps.json
+C:\Users\Admin\Documents\GitHub\CSharp\BT_MaHoa\MaHoaCeasar\bin\Debug\net8.0\MaHoaCeasar.runtimeconfig.json
+C:\Users\Admin\Documents\GitHub\CSharp\BT_MaHoa\MaHoaCeasar\bin\Debug\net8.0\MaHoaCeasar.dll
+C:\Users\Admin\Documents\GitHub\CSharp\BT_MaHoa\MaHoaCeasar\bin\Debug\net8.0\MaHoaCeasar.pdb
+C:\Users\Admin\Documents\GitHub\CSharp\BT_MaHoa\MaHoaCeasar\obj\Debug\net8.0\MaHoaCeasar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\GitHub\CSharp\BT_MaHoa\MaHoaCeasar\obj\Debug\net8.0\MaHoaCeasar.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\GitHub\CSharp\BT_MaHoa\MaHoaCeasar\obj\Debug\net8.0\MaHoaCeasar.AssemblyInfo.cs
+C:\Users\Admin\Documents\GitHub\CSharp\BT_MaHoa\MaHoaCeasar\obj\Debug\net8.0\MaHoaCeasar.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\CSharp\BT_MaHoa\MaHoaCeasar\obj\Debug\net8.0\MaHoaCeasar.sourcelink.json
+C:\Users\Admin\Documents\GitHub\CSharp\BT_MaHoa\MaHoaCeasar\obj\Debug\net8.0\MaHoaCeasar.dll
+C:\Users\Admin\Documents\GitHub\CSharp\BT_MaHoa\MaHoaCeasar\obj\Debug\net8.0\refint\MaHoaCeasar.dll
+C:\Users\Admin\Documents\GitHub\CSharp\BT_MaHoa\MaHoaCeasar\obj\Debug\net8.0\MaHoaCeasar.pdb
+C:\Users\Admin\Documents\GitHub\CSharp\BT_MaHoa\MaHoaCeasar\obj\Debug\net8.0\MaHoaCeasar.genruntimeconfig.cache
+C:\Users\Admin\Documents\GitHub\CSharp\BT_MaHoa\MaHoaCeasar\obj\Debug\net8.0\ref\MaHoaCeasar.dll
