@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "ChangeBanner";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm("ChangeBanner", "ChangeBanner",FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div>
+        <h2>THAY ĐỔI BANNER</h2>
+        <p>
+            Chọn ảnh làm banner: <input type="file" style="height:30px;" name="banner" accept="image/*" required />
+        </p>
+        <button type="submit" class="py-1 px-2 border border-black rounded bg-gray-200 hover:bg-gray-300">Thay đổi</button>
+
+    </div>
+}

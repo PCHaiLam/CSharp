@@ -1,0 +1,59 @@
+﻿@model BaiTap5_63134417.Models.MailInfor
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm("SendMail", "SendMail", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal m-5 p-3 w-96 border border-black align-items-center">
+        <h4 class="font-bold text-xl uppercase text-center">Chức năng gửi email</h4>
+        <hr />
+
+        <div class="flex justify-between items-center w-full my-2">
+            @Html.LabelFor(model => model.From, "Gửi từ mail", htmlAttributes: new { @class = "font-bold w-30 text-right" })
+            <div class="">
+                @Html.EditorFor(model => model.From, new { htmlAttributes = new { @class = "w-60 px-1 py-1 border border-black rounded" } })
+                @Html.ValidationMessageFor(model => model.From, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="flex justify-between items-center w-full my-2">
+            @Html.LabelFor(model => model.Password, "Mật khẩu", htmlAttributes: new { @class = "font-bold w-30 text-right" })
+            <div class="">
+                @Html.PasswordFor(model => model.Password, new { @class = "w-60 px-1 py-1 border border-black rounded" })
+                @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="flex justify-between items-center w-full my-2">
+            @Html.LabelFor(model => model.To, "Gửi đến email", htmlAttributes: new { @class = "font-bold w-30 text-right" })
+            <div class="">
+                @Html.EditorFor(model => model.To, new { htmlAttributes = new { @class = "w-60 px-1 py-1 border border-black rounded" } })
+                @Html.ValidationMessageFor(model => model.To, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="flex justify-between items-center w-full my-2">
+            @Html.LabelFor(model => model.Subject, "Tiêu đề", htmlAttributes: new { @class = "font-bold w-30 text-right" })
+            <div class="">
+                @Html.EditorFor(model => model.Subject, new { htmlAttributes = new { @class = "w-60 px-1 py-1 border border-black rounded" } })
+                @Html.ValidationMessageFor(model => model.Subject, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="flex justify-between items-center w-full my-2">
+            @Html.LabelFor(model => model.Body, "Nội dung", htmlAttributes: new { @class = "font-bold w-30 text-right" })
+            <div class="w-60">
+                @Html.TextAreaFor(model => model.Body, new { @class = "w-60 px-1 py-1 border border-black rounded" })
+                @Html.ValidationMessageFor(model => model.Body, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="flex justify-around items-center w-full my-2">
+            <button type="submit" class="px-2 py-1 border border-black bg-gray-200 rounded hover:bg-gray-300">Gửi</button>
+        </div>
+    </div>
+}
+

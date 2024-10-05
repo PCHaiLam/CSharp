@@ -3,11 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\ThucHanh\\BaiTap3_63134417\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30CAC0A8-9601-4169-98BC-9960A1F6C761}|BaiTap3_63134417.csproj|C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\ThucHanh\\BaiTap3_63134417\\controllers\\nhanvien_63134417controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30CAC0A8-9601-4169-98BC-9960A1F6C761}|BaiTap3_63134417.csproj|solutionrelative:controllers\\nhanvien_63134417controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30CAC0A8-9601-4169-98BC-9960A1F6C761}|BaiTap3_63134417.csproj|c:\\users\\admin\\documents\\github\\csharp\\mvc\\thuchanh\\baitap3_63134417\\views\\nhanvien_63134417\\confirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{30CAC0A8-9601-4169-98BC-9960A1F6C761}|BaiTap3_63134417.csproj|C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\ThucHanh\\BaiTap3_63134417\\views\\nhanvien_63134417\\confirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{30CAC0A8-9601-4169-98BC-9960A1F6C761}|BaiTap3_63134417.csproj|solutionrelative:views\\nhanvien_63134417\\confirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -15,8 +11,8 @@
       "RelativeMoniker": "D:0:0:{30CAC0A8-9601-4169-98BC-9960A1F6C761}|BaiTap3_63134417.csproj|solutionrelative:views\\nhanvien_63134417\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30CAC0A8-9601-4169-98BC-9960A1F6C761}|BaiTap3_63134417.csproj|C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\ThucHanh\\BaiTap3_63134417\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{30CAC0A8-9601-4169-98BC-9960A1F6C761}|BaiTap3_63134417.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{30CAC0A8-9601-4169-98BC-9960A1F6C761}|BaiTap3_63134417.csproj|c:\\users\\admin\\documents\\github\\csharp\\mvc\\thuchanh\\baitap3_63134417\\controllers\\nhanvien_63134417controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30CAC0A8-9601-4169-98BC-9960A1F6C761}|BaiTap3_63134417.csproj|solutionrelative:controllers\\nhanvien_63134417controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,52 +58,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\ThucHanh\\BaiTap3_63134417\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\ThucHanh\\BaiTap3_63134417\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-22T10:08:14.755Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\ThucHanh\\BaiTap3_63134417\\Views\\NhanVien_63134417\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\NhanVien_63134417\\Index.cshtml",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\ThucHanh\\BaiTap3_63134417\\Views\\NhanVien_63134417\\Index.cshtml",
               "RelativeToolTip": "Views\\NhanVien_63134417\\Index.cshtml",
-              "ViewState": "AQIAADYAAAAAAAAAAAAAAEkAAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEUAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-22T05:39:52.978Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Confirm.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\ThucHanh\\BaiTap3_63134417\\Views\\NhanVien_63134417\\Confirm.cshtml",
               "RelativeDocumentMoniker": "Views\\NhanVien_63134417\\Confirm.cshtml",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\ThucHanh\\BaiTap3_63134417\\Views\\NhanVien_63134417\\Confirm.cshtml",
               "RelativeToolTip": "Views\\NhanVien_63134417\\Confirm.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAABQAAAAQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-21T02:03:43.408Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "NhanVien_63134417Controller.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\ThucHanh\\BaiTap3_63134417\\Controllers\\NhanVien_63134417Controller.cs",
               "RelativeDocumentMoniker": "Controllers\\NhanVien_63134417Controller.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\ThucHanh\\BaiTap3_63134417\\Controllers\\NhanVien_63134417Controller.cs",
               "RelativeToolTip": "Controllers\\NhanVien_63134417Controller.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAYwB0AAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T01:58:56.322Z",
               "EditorCaption": ""

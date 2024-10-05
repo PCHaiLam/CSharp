@@ -1,0 +1,48 @@
+﻿@{
+    var path = Server.MapPath("/banner.txt");
+    var fileImage = System.IO.File.ReadAllText(path);
+    ViewBag.image = "/Images/" + fileImage;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/styleAdmin.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="mt-0">
+    <div class="h-20 bg-blue-300"><img src=@ViewBag.image /></div>
+    <div>
+        <div class="font-bold">
+            @Html.ActionLink("TRANG CHỦ", "Home", "Home", null, new { @class = "text-blue-300 hover:text-blue-400" }) &nbsp;|&nbsp;
+            @Html.ActionLink("ĐĂNG KÝ", "Register", "Register", null, new { @class = "text-blue-300 hover:text-blue-400" })&nbsp;|&nbsp;
+            @Html.ActionLink("GỬI EMAIL", "SendMail", "SendMail", null, new { @class = "text-blue-300 hover:text-blue-400" }) &nbsp;|&nbsp;
+            @Html.ActionLink("THAY ĐỔI BANNER", "ChangeBanner", "ChangeBanner", null, new { @class = "text-blue-300 hover:text-blue-400" })
+            <hr style="margin-top:0px;" />
+        </div>
+    </div>
+    <div class="h-screen">
+        @RenderBody()
+    </div>
+    <footer class="h-12 bg-yellow-200 flex justify-around ">
+        <div class="place-self-center">
+            Khánh Hòa, ngày <span id="currentDate"></span>
+
+        </div>
+    </footer>
+
+    <script>
+        const today = new Date();
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        document.getElementById('currentDate').textContent = today.toLocaleDateString('vi-VN', options);
+    </script>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+
