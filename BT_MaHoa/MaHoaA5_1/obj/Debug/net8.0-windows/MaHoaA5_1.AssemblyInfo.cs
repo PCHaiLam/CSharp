@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MaHoaA5_1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2f9e066ba71d20eb7098676f442948586d6127f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83249a7f3b411155522fa204497af4a63805d8b6")]
 [assembly: System.Reflection.AssemblyProductAttribute("MaHoaA5_1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MaHoaA5_1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
