@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\BT_MaHoa\\MaHoaA5_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7BA89903-8394-4B33-81D7-6970046E2003}|MaHoaA5_1.csproj|c:\\users\\admin\\documents\\github\\csharp\\bt_mahoa\\mahoaa5_1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7BA89903-8394-4B33-81D7-6970046E2003}|MaHoaA5_1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7BA89903-8394-4B33-81D7-6970046E2003}|MaHoaA5_1.csproj|C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\BT_MaHoa\\MaHoaA5_1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BA89903-8394-4B33-81D7-6970046E2003}|MaHoaA5_1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BA89903-8394-4B33-81D7-6970046E2003}|MaHoaA5_1.csproj|c:\\users\\admin\\documents\\github\\csharp\\bt_mahoa\\mahoaa5_1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7BA89903-8394-4B33-81D7-6970046E2003}|MaHoaA5_1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7BA89903-8394-4B33-81D7-6970046E2003}|MaHoaA5_1.csproj|c:\\users\\admin\\documents\\github\\csharp\\bt_mahoa\\mahoaa5_1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7BA89903-8394-4B33-81D7-6970046E2003}|MaHoaA5_1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\BT_MaHoa\\MaHoaA5_1\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -66,13 +66,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\BT_MaHoa\\MaHoaA5_1\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\BT_MaHoa\\MaHoaA5_1\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-04T03:56:50.405Z",
               "EditorCaption": ""
