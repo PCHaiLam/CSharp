@@ -1,0 +1,65 @@
+﻿@model IEnumerable<CafeGocNho_63134417.Models.BAN>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="flex h-full">
+    <!-- Cột Danh Sách Bàn -->
+    <div id="tableList" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 w-3/4 shadow p-2">
+        @foreach (var item in Model)
+        {
+            // Kiểm tra trạng thái và chọn màu nền phù hợp
+            var backgroundColor = item.TINHTRANG == 1 ? "#ece5d3" : "white";
+
+            <div class="rounded-lg shadow-lg p-4 w-28 h-24 cursor-pointer table-card"
+                 style="background-color: @backgroundColor;"
+                 data-table-id="@item.MABAN"
+                 onclick="selectTable(this, @item.MABAN)">
+                <div class="bg-gray-200 text-gray-800 text-sm font-semibold px-2 py-1 rounded">
+                    Bàn: @item.MABAN
+                </div>
+            </div>
+        }
+    </div>
+
+    <!-- Cột Chi Tiết Hóa Đơn -->
+    <div class="w-2/4 border-gray-300 ml-4 p-2 shadow">
+        <h2 class="text-xl font-semibold mb-4">Chi tiết hóa đơn</h2>
+        <div id="billContent">
+            <!-- Nội dung chi tiết hóa đơn sẽ được cập nhật ở đây -->
+            <p>Chọn một bàn để xem chi tiết hóa đơn.</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    function selectTable(element, tableId) {
+        // Đặt lại màu của tất cả các bàn về mặc định
+        var allTables = document.querySelectorAll('.table-card');
+        allTables.forEach(function (table) {
+            table.style.backgroundColor = table.getAttribute('data-original-color');
+        });
+
+        // Thay đổi màu bàn được chọn thành #e2dfd3
+        element.style.backgroundColor = '#e2dfd3';
+
+        // Hiển thị chi tiết hóa đơn
+        showBillDetails(tableId);
+    }
+
+    function showBillDetails(tableId) {
+        // Tạo một số dữ liệu hóa đơn giả, bạn có thể thay thế bằng dữ liệu thực tế
+        var billData = {
+            1: "Chi tiết hóa đơn cho bàn 1: Món 1, Món 2, Tổng: 100.000đ",
+            2: "Chi tiết hóa đơn cho bàn 2: Món 3, Món 4, Tổng: 200.000đ",
+            3: "Chi tiết hóa đơn cho bàn 3: Món 5, Món 6, Tổng: 300.000đ",
+            // ... thêm cho các bàn khác
+        };
+
+        // Hiển thị chi tiết hóa đơn cho bàn được nhấp
+        var billContent = billData[tableId] || "Không có dữ liệu hóa đơn.";
+        document.getElementById("billContent").innerText = billContent;
+    }
+</script>

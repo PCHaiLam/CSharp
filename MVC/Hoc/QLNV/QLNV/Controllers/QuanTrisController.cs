@@ -42,7 +42,7 @@ namespace QLNV.Controllers
                 if (CheckUser(qt.Email, qt.Password))
                 {
                     FormsAuthentication.SetAuthCookie(qt.Email, true);
-                    return RedirectToAction("Index", "NhanViens/Index");
+                    return RedirectToAction("Index", "PhongBans/Index");
                 }
                 else
                     ModelState.AddModelError("", "Tên đăng nhập hoặc tài khoản không đúng.");
