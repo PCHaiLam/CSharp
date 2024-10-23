@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
+using System.Diagnostics;
 using System.Linq;
 using System.Net;
 using System.Web;
@@ -15,10 +16,105 @@ namespace CafeGocNho_63134417.Controllers
         private CafeGocNho_63134417Entities db = new CafeGocNho_63134417Entities();
 
         // GET: BANs_63134417
-        public ActionResult Index()
+        public ActionResult Index(int page = 1, string filter = "all", int? tableId = null)
         {
-            return View(db.BAN.ToList());
+            if (Session["Ten"] == null || Session["Ten"].ToString() == "")
+            {
+                return RedirectToAction("DangNhap", "ADMINs_63134417");
+            }
+
+            int pageSize = 20; // số lượng bàn trogn 1 trang
+            IQueryable<BAN> tablesQuery = db.BAN;
+
+            // lọc bàn trống
+            switch (filter.ToLower())
+            {
+                case "available":
+                    tablesQuery = tablesQuery.Where(b => b.TINHTRANG == 0);
+                    break;
+                case "occupied":
+                    tablesQuery = tablesQuery.Where(b => b.TINHTRANG != 0);
+                    break;
+                default:
+                    break;
+            }
+
+            // phân trang bàn
+            int totalItems = tablesQuery.Count();
+            var totalPages = totalItems > 0 ? (int)Math.Ceiling(totalItems / (double)pageSize) : 1; // Đảm bảo totalPages luôn >= 1
+
+            // Điều chỉnh lại giá trị của page để đảm bảo nó hợp lệ
+            if (page < 1) page = 1;
+            if (page > totalPages) page = totalPages;
+
+            // Kiểm tra thêm để đảm bảo Skip không nhận giá trị âm
+            if (totalItems > 0)
+            {
+                var tables = tablesQuery
+                    .OrderBy(b => b.MABAN)
+                    .Skip((page - 1) * pageSize)
+                    .Take(pageSize)
+                    .ToList();
+
+                // Hiển thị hóa đơn của bàn
+                if (tableId.HasValue)
+                {
+                    // Lấy thông tin bàn từ cơ sở dữ liệu
+                    var table = db.BAN.FirstOrDefault(b => b.MABAN == tableId);
+
+                    if (table != null)
+                    {
+                        // Kiểm tra trạng thái của bàn
+                        if (table.TINHTRANG == 0) // Bàn trống
+                        {
+                            ViewBag.Message = "Bàn trống, không có hóa đơn.";
+                        }
+                        else
+                        {
+                            // Nếu bàn đang được sử dụng, lấy hóa đơn và chi tiết hóa đơn
+                            var bill = db.HOADON.FirstOrDefault(h => h.MABAN == tableId);
+                            if (bill != null)
+                            {
+                                var billDetails = db.CHITIETHOADON
+                                    .Where(c => c.MAHD == bill.MAHD)
+                                    .Select(c => new
+                                    {
+                                        TENMON = c.MENU.TENMH,
+                                        SOLUONG = c.SOLUONG,
+                                        GIA = c.GIACA
+                                    })
+                                    .ToList();
+
+                                ViewBag.BillDetails = billDetails;
+                            }
+                            else
+                            {
+                                ViewBag.Message = "Không có hóa đơn cho bàn này.";
+                            }
+                        }
+                    }
+                    else
+                    {
+                        ViewBag.Message = "Không tìm thấy bàn.";
+                    }
+                }
+
+                ViewBag.CurrentPage = page;
+                ViewBag.TotalPages = totalPages;
+                ViewBag.CurrentPage = page;
+                ViewBag.TotalPages = totalPages;
+                ViewBag.NoTable = filter;
+                ViewBag.TableID = "bàn "+ tableId;
+
+                return View(tables);
+                }
+            else
+            {
+                ViewBag.Filters = "Không có bàn nào để hiển thị.";
+                return View(new List<BAN>()); // Trả về danh sách trống
+            }
         }
+
 
         // GET: BANs_63134417/Details/5
         public ActionResult Details(int? id)

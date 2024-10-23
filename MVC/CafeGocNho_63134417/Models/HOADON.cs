@@ -24,6 +24,7 @@ namespace CafeGocNho_63134417.Models
         public Nullable<int> MABAN { get; set; }
         public string MANV { get; set; }
         public Nullable<System.DateTime> THOIGIAN { get; set; }
+        public Nullable<short> THANHTOAN { get; set; }
     
         public virtual BAN BAN { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

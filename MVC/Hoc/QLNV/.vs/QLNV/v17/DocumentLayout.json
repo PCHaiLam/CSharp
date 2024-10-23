@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\qlnv\\controllers\\quantriscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\controllers\\quantriscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\qlnv\\controllers\\nhanvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\controllers\\nhanvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\qlnv\\views\\quantris\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\views\\quantris\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|c:\\users\\admin\\documents\\github\\csharp\\mvc\\hoc\\qlnv\\qlnv\\views\\nhanviens\\timkiemnc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\views\\nhanviens\\timkiemnc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\qlnv\\views\\quantris\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\views\\quantris\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\qlnv\\views\\nhanviens\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\views\\nhanviens\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\qlnv\\views\\nhanviens\\timkiem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\views\\nhanviens\\timkiem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|c:\\users\\admin\\documents\\github\\csharp\\mvc\\hoc\\qlnv\\qlnv\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\qlnv\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\views\\shared\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\qlnv\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\qlnv\\views\\phongbans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\views\\phongbans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\qlnv\\controllers\\managecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,20 +39,12 @@
       "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\views\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\qlnv\\views\\phongbans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\views\\phongbans\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\qlnv\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\qlnv\\views\\gioithieu\\gioithieu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\views\\gioithieu\\gioithieu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\qlnv\\controllers\\nhanvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E197669-C62A-482D-BF67-95658BFB92E4}|QLNV\\QLNV.csproj|solutionrelative:qlnv\\controllers\\nhanvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,85 +90,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_LayoutAdmin.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\QLNV\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeDocumentMoniker": "QLNV\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\QLNV\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "RelativeToolTip": "QLNV\\Views\\Shared\\_LayoutAdmin.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAA7AAAA",
+              "DocumentIndex": 1,
+              "Title": "TimKiemNC.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\QLNV\\Views\\NhanViens\\TimKiemNC.cshtml",
+              "RelativeDocumentMoniker": "QLNV\\Views\\NhanViens\\TimKiemNC.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\QLNV\\Views\\NhanViens\\TimKiemNC.cshtml",
+              "RelativeToolTip": "QLNV\\Views\\NhanViens\\TimKiemNC.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAAUAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-28T04:39:21.077Z",
+              "WhenOpened": "2024-10-19T00:33:07.615Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "QuanTrisController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\QLNV\\Controllers\\QuanTrisController.cs",
-              "RelativeDocumentMoniker": "QLNV\\Controllers\\QuanTrisController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\QLNV\\Controllers\\QuanTrisController.cs",
-              "RelativeToolTip": "QLNV\\Controllers\\QuanTrisController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA0AAAA",
+              "Title": "NhanViensController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\QLNV\\Controllers\\NhanViensController.cs",
+              "RelativeDocumentMoniker": "QLNV\\Controllers\\NhanViensController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\QLNV\\Controllers\\NhanViensController.cs",
+              "RelativeToolTip": "QLNV\\Controllers\\NhanViensController.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAkwAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T01:13:04.557Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ManageController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\QLNV\\Controllers\\ManageController.cs",
-              "RelativeDocumentMoniker": "QLNV\\Controllers\\ManageController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\QLNV\\Controllers\\ManageController.cs",
-              "RelativeToolTip": "QLNV\\Controllers\\ManageController.cs",
-              "ViewState": "AQIAAHIAAAAAAAAAAAAYwDYAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T03:02:30.486Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TimKiem.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\QLNV\\Views\\NhanViens\\TimKiem.cshtml",
-              "RelativeDocumentMoniker": "QLNV\\Views\\NhanViens\\TimKiem.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\QLNV\\Views\\NhanViens\\TimKiem.cshtml",
-              "RelativeToolTip": "QLNV\\Views\\NhanViens\\TimKiem.cshtml",
-              "ViewState": "AQIAAFcAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-13T01:00:59.825Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DangNhap.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\QLNV\\Views\\QuanTris\\DangNhap.cshtml",
-              "RelativeDocumentMoniker": "QLNV\\Views\\QuanTris\\DangNhap.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\QLNV\\Views\\QuanTris\\DangNhap.cshtml",
-              "RelativeToolTip": "QLNV\\Views\\QuanTris\\DangNhap.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-13T02:15:57.075Z",
+              "WhenOpened": "2024-09-17T03:02:41.854Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\QLNV\\Views\\QuanTris\\Index.cshtml",
-              "RelativeDocumentMoniker": "QLNV\\Views\\QuanTris\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\QLNV\\Views\\QuanTris\\Index.cshtml",
-              "RelativeToolTip": "QLNV\\Views\\QuanTris\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\QLNV\\Views\\NhanViens\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLNV\\Views\\NhanViens\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\QLNV\\Views\\NhanViens\\Index.cshtml",
+              "RelativeToolTip": "QLNV\\Views\\NhanViens\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-13T02:16:14.618Z",
+              "WhenOpened": "2024-10-18T04:02:58.92Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\QLNV\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "QLNV\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\QLNV\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "QLNV\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T04:04:30.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\QLNV\\Views\\QuanTris\\Details.cshtml",
               "RelativeDocumentMoniker": "QLNV\\Views\\QuanTris\\Details.cshtml",
@@ -180,12 +149,47 @@
               "RelativeToolTip": "QLNV\\Views\\QuanTris\\Details.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-13T02:16:20.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T02:16:20.419Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\QLNV\\Views\\PhongBans\\Index.cshtml",
+              "RelativeDocumentMoniker": "QLNV\\Views\\PhongBans\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\QLNV\\Views\\PhongBans\\Index.cshtml",
+              "RelativeToolTip": "QLNV\\Views\\PhongBans\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-12T01:12:44.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\QLNV\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "QLNV\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\QLNV\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "QLNV\\Views\\Shared\\_LayoutAdmin.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-28T04:39:21.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ManageController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\QLNV\\Controllers\\ManageController.cs",
+              "RelativeDocumentMoniker": "QLNV\\Controllers\\ManageController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\QLNV\\Controllers\\ManageController.cs",
+              "RelativeToolTip": "QLNV\\Controllers\\ManageController.cs",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAYwDYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T03:02:30.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\QLNV\\Views\\Manage\\Index.cshtml",
               "RelativeDocumentMoniker": "QLNV\\Views\\Manage\\Index.cshtml",
@@ -193,21 +197,7 @@
               "RelativeToolTip": "QLNV\\Views\\Manage\\Index.cshtml",
               "ViewState": "AQIAABMAAAAAAAAAAEBVwBIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-12T01:15:58.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\QLNV\\Views\\PhongBans\\Index.cshtml",
-              "RelativeDocumentMoniker": "QLNV\\Views\\PhongBans\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\QLNV\\Views\\PhongBans\\Index.cshtml",
-              "RelativeToolTip": "QLNV\\Views\\PhongBans\\Index.cshtml",
-              "ViewState": "AQIAAC4AAAAAAAAAAEBVwDMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-12T01:12:44.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T01:15:58.028Z"
             },
             {
               "$type": "Document",
@@ -219,8 +209,7 @@
               "RelativeToolTip": "QLNV\\Views\\GioiThieu\\GioiThieu.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-12T01:12:02.284Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T01:12:02.284Z"
             },
             {
               "$type": "Document",
@@ -233,19 +222,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAlAQAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2024-10-12T01:07:55.398Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "NhanViensController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\QLNV\\Controllers\\NhanViensController.cs",
-              "RelativeDocumentMoniker": "QLNV\\Controllers\\NhanViensController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\CSharp\\MVC\\Hoc\\QLNV\\QLNV\\Controllers\\NhanViensController.cs",
-              "RelativeToolTip": "QLNV\\Controllers\\NhanViensController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-17T03:02:41.854Z",
               "EditorCaption": ""
             }
           ]

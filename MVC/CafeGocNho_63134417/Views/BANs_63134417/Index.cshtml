@@ -1,65 +1,87 @@
 ﻿@model IEnumerable<CafeGocNho_63134417.Models.BAN>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Bàn";
     Layout = "~/Views/Shared/_Layout.cshtml";
+
 }
-
-<div class="flex h-full">
+<div class="grid grid-cols-[2fr_1fr] gap-4 py-2 flex-grow">
     <!-- Cột Danh Sách Bàn -->
-    <div id="tableList" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 w-3/4 shadow p-2">
-        @foreach (var item in Model)
-        {
-            // Kiểm tra trạng thái và chọn màu nền phù hợp
-            var backgroundColor = item.TINHTRANG == 1 ? "#ece5d3" : "white";
+    <div class="flex flex-col">
+        <div>
+            <form id="filterForm" method="get">
+                <label>
+                    <input type="radio" name="filter" value="all" onchange="document.getElementById('filterForm').submit();" @(ViewBag.Filter == "all" ? "checked" : "")>
+                    Tất cả
+                </label>
+                <label>
+                    <input type="radio" name="filter" value="available" onchange="document.getElementById('filterForm').submit();" @(ViewBag.Filter == "available" ? "checked" : "")>
+                    Bàn trống
+                </label>
+                <label>
+                    <input type="radio" name="filter" value="occupied" onchange="document.getElementById('filterForm').submit();" @(ViewBag.Filter == "occupied" ? "checked" : "")>
+                    Đang sử dụng
+                </label>
+            </form>
+        </div>
 
-            <div class="rounded-lg shadow-lg p-4 w-28 h-24 cursor-pointer table-card"
-                 style="background-color: @backgroundColor;"
-                 data-table-id="@item.MABAN"
-                 onclick="selectTable(this, @item.MABAN)">
-                <div class="bg-gray-200 text-gray-800 text-sm font-semibold px-2 py-1 rounded">
-                    Bàn: @item.MABAN
-                </div>
-            </div>
-        }
+        <div class="h-full">
+            <ul id="tableList" class="grid grid-cols-5">
+                @foreach (var item in Model)
+                {
+                    <li class="rounded-lg shadow-lg p-4 h-28 table-card m-2"
+                        style="background-color: @(item.TINHTRANG == 1 ? "#ece5d3" : "white")">
+                        <a href="@Url.Action("Index", new { page = ViewBag.CurrentPage, filter = ViewBag.Filter, tableId = item.MABAN })"
+                           class=" cursor-pointer">
+                            <div class="bg-gray-200 text-gray-800 text-sm font-semibold px-2 py-1 rounded">
+                                Bàn: @item.MABAN
+                            </div>
+                        </a>
+                    </li>
+                }
+                @ViewBag.NoTable
+            </ul>
+        </div>
+
+        <div class="mt-4 flex justify-center text-black">
+            <!-- Luôn hiển thị phím điều hướng Previous -->
+            <a href="?page=@(ViewBag.CurrentPage > 1 ? ViewBag.CurrentPage - 1 : 1)" class="px-2 border rounded @(ViewBag.CurrentPage > 1 ? "" : "disabled-link")">Previous</a>
+
+            @if (ViewBag.TotalPages > 0)
+            {
+                for (int i = 1; i <= ViewBag.TotalPages; i++)
+                {
+                    <a href="?page=@i" class="px-2 border rounded @(i == ViewBag.CurrentPage ? "font-bold" : "")">@i</a>
+                }
+            }
+            else
+            {
+                <p>Không có bàn nào để hiển thị.</p>
+            }
+            <!-- Luôn hiển thị phím điều hướng Next -->
+            <a href="?page=@(ViewBag.CurrentPage < ViewBag.TotalPages ? ViewBag.CurrentPage + 1 : ViewBag.TotalPages)" class="px-2 border rounded @(ViewBag.CurrentPage < ViewBag.TotalPages ? "" : "disabled-link")">Next</a>
+        </div>
+
+
     </div>
-
     <!-- Cột Chi Tiết Hóa Đơn -->
-    <div class="w-2/4 border-gray-300 ml-4 p-2 shadow">
-        <h2 class="text-xl font-semibold mb-4">Chi tiết hóa đơn</h2>
+    <div class="border-gray-300 ml-4 p-2 shadow bg-white rounded" style="height: 586px">
+        <h2 class="text-xl font-semibold mb-4">Chi tiết hóa đơn @ViewBag.TableID</h2>
         <div id="billContent">
-            <!-- Nội dung chi tiết hóa đơn sẽ được cập nhật ở đây -->
-            <p>Chọn một bàn để xem chi tiết hóa đơn.</p>
+            @if (ViewBag.BillDetails != null)
+            {
+                @*<ul>
+                    @foreach (var item in ViewBag.BillDetails)
+                    {
+                        <li>@item.TENMH - @item.SOLUONG - @item.GIACA</li>
+                    }
+                </ul>*@
+                @ViewBag.BillDetails
+            }
+            else
+            {
+                <p>@ViewBag.Message</p>
+            }
         </div>
     </div>
 </div>
-
-<script>
-    function selectTable(element, tableId) {
-        // Đặt lại màu của tất cả các bàn về mặc định
-        var allTables = document.querySelectorAll('.table-card');
-        allTables.forEach(function (table) {
-            table.style.backgroundColor = table.getAttribute('data-original-color');
-        });
-
-        // Thay đổi màu bàn được chọn thành #e2dfd3
-        element.style.backgroundColor = '#e2dfd3';
-
-        // Hiển thị chi tiết hóa đơn
-        showBillDetails(tableId);
-    }
-
-    function showBillDetails(tableId) {
-        // Tạo một số dữ liệu hóa đơn giả, bạn có thể thay thế bằng dữ liệu thực tế
-        var billData = {
-            1: "Chi tiết hóa đơn cho bàn 1: Món 1, Món 2, Tổng: 100.000đ",
-            2: "Chi tiết hóa đơn cho bàn 2: Món 3, Món 4, Tổng: 200.000đ",
-            3: "Chi tiết hóa đơn cho bàn 3: Món 5, Món 6, Tổng: 300.000đ",
-            // ... thêm cho các bàn khác
-        };
-
-        // Hiển thị chi tiết hóa đơn cho bàn được nhấp
-        var billContent = billData[tableId] || "Không có dữ liệu hóa đơn.";
-        document.getElementById("billContent").innerText = billContent;
-    }
-</script>

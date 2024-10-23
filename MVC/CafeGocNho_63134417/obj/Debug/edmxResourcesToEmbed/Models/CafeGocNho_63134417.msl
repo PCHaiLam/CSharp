@@ -22,6 +22,7 @@
     <EntitySetMapping Name="HOADON">
       <EntityTypeMapping TypeName="CafeGocNho_63134417Model.HOADON">
         <MappingFragment StoreEntitySet="HOADON">
+          <ScalarProperty Name="THANHTOAN" ColumnName="THANHTOAN" />
           <ScalarProperty Name="MAHD" ColumnName="MAHD" />
           <ScalarProperty Name="MABAN" ColumnName="MABAN" />
           <ScalarProperty Name="MANV" ColumnName="MANV" />

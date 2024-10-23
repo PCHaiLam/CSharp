@@ -7,7 +7,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using QLNV.Models;
-using PagedList.Mvc;
+
 namespace QLNV.Controllers
 {
     public class NhanViensController : Controller

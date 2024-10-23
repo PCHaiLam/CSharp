@@ -13,7 +13,7 @@ namespace CafeGocNho_63134417.Controllers
 {
     public class ADMINs_63134417Controller : Controller
     {
-        private CafeGocNho_63134417Entities db = new CafeGocNho_63134417Entities();
+        private readonly CafeGocNho_63134417Entities db = new CafeGocNho_63134417Entities();
         public bool CheckUser(string username, string password, out bool isAdmin)
         {
             var kq = db.ADMIN.Where(x => x.Email == username && x.Password == password).FirstOrDefault();
@@ -45,8 +45,7 @@ namespace CafeGocNho_63134417.Controllers
         {
             if (ModelState.IsValid)
             {
-                bool isAdmin;
-                if (CheckUser(qt.Email, qt.Password, out isAdmin))
+                if (CheckUser(qt.Email, qt.Password, out bool isAdmin))
                 {
                     FormsAuthentication.SetAuthCookie(qt.Email, true);
 

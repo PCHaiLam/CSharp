@@ -31,6 +31,7 @@
     <NavigationProperty Name="BAN" Relationship="Self.FK_HOADON_BAN_PHIEU_BAN" FromRole="HOADON" ToRole="BAN" />
     <NavigationProperty Name="CHITIETHOADON" Relationship="Self.FK_CHITIETH_PHIEU_XUA_HOADON" FromRole="HOADON" ToRole="CHITIETHOADON" />
     <NavigationProperty Name="NHANVIEN" Relationship="Self.FK_HOADON_NHAN_VIEN_NHANVIEN" FromRole="HOADON" ToRole="NHANVIEN" />
+    <Property Name="THANHTOAN" Type="Int16" />
   </EntityType>
   <EntityType Name="LOAIMATHANG">
     <Key>

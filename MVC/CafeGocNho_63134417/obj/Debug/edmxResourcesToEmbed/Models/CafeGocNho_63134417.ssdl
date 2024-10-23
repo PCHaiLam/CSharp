@@ -39,6 +39,7 @@ warning 6002: The table/view 'CafeGocNho_63134417.dbo.ADMIN' does not have a pri
     <Property Name="MABAN" Type="int" />
     <Property Name="MANV" Type="varchar" MaxLength="10" />
     <Property Name="THOIGIAN" Type="datetime" />
+    <Property Name="THANHTOAN" Type="smallint" />
   </EntityType>
   <EntityType Name="LOAIMATHANG">
     <Key>

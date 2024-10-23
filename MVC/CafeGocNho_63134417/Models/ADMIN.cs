@@ -9,8 +9,10 @@
 
 namespace CafeGocNho_63134417.Models
 {
+    using System;
+    using System.Collections.Generic;
     
-    public class ADMIN
+    public partial class ADMIN
     {
         public string Email { get; set; }
         public bool Admin1 { get; set; }
